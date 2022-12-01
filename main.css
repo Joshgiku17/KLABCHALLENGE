@@ -1,0 +1,430 @@
+:root{
+  --color1: rgb(76,111,255);
+  --color2: #e5ebf5;
+  --fontcolor:#3c3d43;
+  --fontcolor2:#a0a6ab;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    outline: none;
+
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: rgb(76,111,255);
+background: linear-gradient(90deg, rgba(76,111,255,1) 50%, rgba(229,235,245,1) 50%);
+    justify-content: space-around;
+    height: 100vh;
+}
+.separate1{
+    background-color:var(--color1);
+    width: 100%;
+}
+.separate2{
+    background-color:var(--color2);
+    width: 100%;
+}
+.modelbox{
+    position: relative;
+    /* background-color: #fff; */
+    margin: auto;
+    height: 80vh;
+    width: 70%;
+    /* padding: 10px; */
+    display: flex;    
+    flex-direction: row;
+    
+}
+/* .flexcolumns{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+} */
+.flexleft{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* background-color: rgb(110, 26, 26); */
+    
+    background:
+    linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg,#1f28a1 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+    linear-gradient(45deg, #1f28a1 25%, transparent 25%);
+    background-size: 100px 100px;
+    
+
+    width: 100%;
+}
+.logoPlace{
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    height: 6vh;
+}
+.madelogo button{
+    width: 100%;
+    height: 5vh;
+    background: rgb(166,104,255);
+background: radial-gradient(circle, rgba(166,104,255,1) 2%, rgba(199,102,255,1) 86%, rgba(166,104,255,1) 100%);
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.madelogo .two{
+    color:rgb(209, 209, 209);
+    font-size: 15px;
+    /* padding: 1px; */
+    margin-left: -4px;
+}
+.madelogo .main{
+    font-size: 18px;
+    color: white;
+}
+.logoPlace label{
+    padding: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color:#a668ff;
+    justify-self: center;
+    align-self: center;
+}
+/* Artstic div in the right div */
+/* Begins */
+.statistics{
+    background-color: #fff;
+    width: 80%;
+    height:40vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5vh;
+    position: relative;
+}
+ .statisicsNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 5vh;
+    
+}
+.statisicsNav .h2{
+    font-weight: 700;
+    width: 100%;
+}
+.statisicsNav .showMore{
+    width:30%;
+    font-weight: 600;
+    font-size: 14px;
+    color:var(--color1);
+}
+.statisticsBoxes{
+    display: flex;
+    height: 35vh;
+    flex-direction: rows;
+    width: 100%;
+}
+.statsLeft{
+    background-color: var(--color2);
+    width:100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bigcirle{
+    height: 27vh;
+    position: relative;
+    
+    margin-top: 10px;
+}
+.bigcirle i{
+    color:#a668ff;
+    font-size:8rem;
+}
+.othercta{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+}
+.othercta input{
+    margin-left: 5px;
+    padding: 3px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    cursor:pointer;
+}
+.othercta .aa{
+    color: rgb(0, 106, 255);
+    
+}
+.othercta .bb{
+    color: green;
+    
+}
+.othercta .cc{
+    color: navy;
+}
+
+
+
+
+
+
+/* ends here */
+.statsRight{
+    width: 100%;
+    background: transparent;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+    /* background-color: green; */
+    
+}
+.rightUp{
+    border:1px solid var(--fontcolor2);
+    background: #fff;
+    height: 13vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 10px;
+}
+.rightUp .uno{
+    display: flex;
+    flex-direction: column;
+    width:100%
+}
+.unoFlex1{
+    height: 5vh;
+}
+.uno .totalHours{
+    color: var(--fontcolor2);
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.uno .numerics{
+    color: var(--fontcolor);
+    font-size: 18px;
+    font-weight: 700;
+}
+.rightUp .duo{
+    width:70%
+        
+}
+.duo button{
+    border: none;
+    outline: none;
+    background: rgb(166,104,255);
+    background: radial-gradient(circle, rgba(166,104,255,1) 2%, rgba(199,102,255,1) 86%, rgba(166,104,255,1) 100%);
+    width: 80%;
+    height: 8vh;
+    border-radius: 50% 50%;
+    margin-left: 8px;
+    margin-top: 10px;
+    
+}
+.duo i{
+    color: #fff;
+    font-size: 18px;
+}
+.rightBottom{
+    border:1px solid var(--fontcolor2);
+    border-radius: 5px;
+    background: #fff;
+    height:13vh;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.rightBottom .troi{
+    display: flex;
+    flex-direction: column;
+    width:100%
+}
+.unoFlex3{
+    height: 5vh;
+}
+.troi .Budget{
+    color: var(--fontcolor2);
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.troi .currency{
+    color: var(--fontcolor);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.rightBottom .Quatro{
+    width:70%
+}
+.Quatro button{
+    border: none;
+    outline: none;
+    background: rgb(166,104,255);
+    background: radial-gradient(circle, rgba(166,104,255,1) 2%, rgba(199,102,255,1) 86%, rgba(166,104,255,1) 100%);
+    width: 80%;
+    height: 8vh;
+    border-radius: 50% 50%;
+    margin-left: 8px;
+    margin-top: 10px; 
+}
+.Quatro i{
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+/* Ends */
+
+.flexright{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+    width: 91.5%;    /*💡 on big screens use 94% on laptop use 91.5%%*/
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.flexright form{
+    background-color: var(--color2);
+    width: 55%;
+    height: 65vh;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.flexright .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flexright .header label{
+    font-weight: 700;
+    font-size: 18px;
+}
+.flexright .header span{
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.flexright .formBody{
+    display: flex;
+    flex-direction: column;
+}
+.flexright .formBody label{
+    font-weight: 500;
+    font-size: 12.5px;
+    color: var(--fontcolor);
+}
+.flexright .formBody input{
+    outline: none;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.formBody span{
+    font-size: 9px;
+    color: rgba(0,0,0, 0.7);
+}
+.flexright .terms{
+    display: flex;
+    flex-direction: row;
+    font-size: 11px;
+    /* padding: 5px; */
+    position: relative;
+    margin-top: 10px;
+}
+.terms input{
+    cursor: pointer;
+    margin-right: 10px;
+}
+.terms p{
+    margin-top: 0px;
+}
+.cta{
+    /* padding: 20px; */
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.cta input{
+    cursor:pointer;
+    background-color: var(--color1);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.lastText{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.lastText hr{
+    width: 50%;
+    height: 0;
+    margin-top: 9px;
+        
+
+}
+.lastText span{
+    width: 100%;
+    font-size: 10px;
+    color: var(--fontcolor2);
+    margin-left: 10px;
+}
+.lastText span a{
+    text-decoration: none;
+    text-align: center;
+}
+.centeredIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+.centeredIcons button{
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    /* padding-left: 10px; */
+    width: 50%;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.centeredIcons button i{
+    font-size: 20px;
+}
+
+
